@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-decoration: underline;
+}
+.big-box{
+    width: 400px;
+    height: 400px;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.big-box div{
+    width: 160px;
+    height: 160px;
+    border: 6px solid black;
+    border-radius: 18%;
+}
+.b1{
+    background-color:#ef476f;
+}
+.b2{
+    background-color:#ffd166;
+}
+.b3{
+    background-color:#06d6a0;
+}
+.b4{
+    background-color:#118ab2;
+}
+.flash{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
