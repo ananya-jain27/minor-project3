@@ -1,1 +1,2 @@
-# minor-project3
+# Simon says game.
+this is made using JS.
